@@ -1,0 +1,5 @@
+python -m venv myvenv - to create a new env
+myenv\Scripts\activate
+pip install -r requirements 
+pip install package==1.0.0
+deactivate 
