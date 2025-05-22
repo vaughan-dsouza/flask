@@ -3,3 +3,6 @@ myenv\Scripts\activate
 pip install -r requirements 
 pip install package==1.0.0
 deactivate 
+
+db.create_all() - to create a db
+-port was changed to 5001 cause of must port 5000

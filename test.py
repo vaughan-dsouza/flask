@@ -1,6 +1,6 @@
 import requests
 
-BASE = "http://127.0.0.1:5000/"
+BASE = "http://127.0.0.1:5001/"
 
 # data = [{"likes": 78, "name": "Joe", "views":152100 },
 #         {"likes": 1000, "name": "How to make your api", "views":800000 },
@@ -14,8 +14,8 @@ BASE = "http://127.0.0.1:5000/"
 # response = requests.delete(BASE + "video/")
 # print(response)
 # input()
-# response = requests.get(BASE + "video/2")
-# print(response.json())
-
-response = requests.patch(BASE + "video/2", {"views": 99, "likes": 505})
+response = requests.get(BASE + "video/2")
 print(response.json())
+
+# response = requests.patch(BASE + "video/2", {"views": 99, "likes": 505})
+# print(response.json())
